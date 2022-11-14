@@ -12,12 +12,12 @@
 
         <TextView
             android:id="@+id/tvTempDay"
-            android:layout_width="149dp"
-            android:layout_height="162dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="27"
+            tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="73dp"
-            tools:layout_editor_absoluteY="162dp"
-            tools:ignore="MissingConstraints" />
+            tools:layout_editor_absoluteY="162dp" />
         />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
